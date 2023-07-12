@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/short-expression/static/css/main.2c77264a.css",
+    "main.js": "/short-expression/static/js/main.e071d8fb.js",
+    "index.html": "/short-expression/index.html",
+    "main.2c77264a.css.map": "/short-expression/static/css/main.2c77264a.css.map",
+    "main.e071d8fb.js.map": "/short-expression/static/js/main.e071d8fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c77264a.css",
+    "static/js/main.e071d8fb.js"
+  ]
+}
