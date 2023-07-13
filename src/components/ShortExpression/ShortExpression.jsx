@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import s from './ShortExpression.module.css'; 
 
 const ShortExpression = () => {
   const [quote, setQuote] = useState('');
@@ -14,10 +15,12 @@ const ShortExpression = () => {
   };
 
   return (
-    <div>
+    <div className={s.quoteContainer}> 
       <h1>Random Quote</h1>
-      <p>{quote}</p>
-      <button onClick={fetchQuote}>Get New Quote</button>
+      <p className={s.quoteText}>{quote}</p>
+      <button className={s.quoteButton} onClick={fetchQuote}>
+        Get New Quote
+      </button>
     </div>
   );
 };
